@@ -1,0 +1,34 @@
+ar-social/
+│
+├── login.html
+├── register.html
+├── index.html
+├── chat.html
+├── profile.html
+├── friends.html
+├── settings.html
+│
+├── css/
+│   ├── style.css
+│   ├── home.css
+│   ├── chat.css
+│   └── profile.css
+│
+├── js/
+│   ├── firebase.js
+│   ├── auth.js
+│   ├── post.js
+│   ├── chat.js
+│   ├── friends.js
+│   └── profile.js
+│
+├── assets/
+│   ├── logo.png
+│   ├── avatars/
+│   ├── uploads/
+│   └── icons/
+│
+└── admin/
+    ├── dashboard.html
+    ├── users.html
+    └── reports.html
