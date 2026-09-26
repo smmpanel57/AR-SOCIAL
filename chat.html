@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AR Social Messenger</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="chat-container">
+
+  <div class="chat-header">
+    <h2>Messenger</h2>
+  </div>
+
+  <div class="chat-list">
+    <div class="user">
+      <img src="assets/avatars/default.png">
+      <span>Friend 1</span>
+    </div>
+
+    <div class="user">
+      <img src="assets/avatars/default.png">
+      <span>Friend 2</span>
+    </div>
+  </div>
+
+  <div class="messages" id="messages"></div>
+
+  <div class="send-box">
+    <input type="text" id="messageInput" placeholder="Type message...">
+    <button onclick="sendMessage()">Send</button>
+  </div>
+
+</div>
+
+<script src="js/chat.js"></script>
+</body>
+</html>
