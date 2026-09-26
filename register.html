@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AR Social Register</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>AR Social</h1>
+    <h3>Create Account</h3>
+
+    <input type="email" id="email" placeholder="Email">
+
+    <input type="password" id="password" placeholder="Password">
+
+    <button id="registerBtn">
+        Register
+    </button>
+
+    <p>
+        Already have an account?
+        <a href="login.html">Login</a>
+    </p>
+</div>
+
+<script type="module">
+
+import { registerUser } from "./js/auth.js";
+
+document.getElementById("registerBtn")
+.addEventListener("click",()=>{
+
+const email =
+document.getElementById("email").value;
+
+const password =
+document.getElementById("password").value;
+
+registerUser(email,password);
+
+});
+
+</script>
+
+</body>
+</html>
